@@ -47,7 +47,9 @@ export default function RootLayout({
               <UserButton />
             </SignedIn>
           </header>
-          <div className="bg-gray-100">{children}</div>
+          <div className="bg-gray-100 flex justify-center items-center">
+            {children}
+          </div>
         </body>
       </html>
     </ClerkProvider>
