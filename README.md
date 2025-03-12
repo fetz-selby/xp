@@ -15,6 +15,7 @@ Copy the `.env.example` file as `.env` and update the values accordingly.
 These `.env` values set up the connection to the database, clerk credentials and nextjs environment variables.
 
 ## The app process
+<img width="622" alt="Screenshot 2025-03-12 at 20 22 54" src="https://github.com/user-attachments/assets/115b4ffa-e05e-4f29-956b-5a63dd9df7d6" />
 
 ## Viewing the hosted app
 
