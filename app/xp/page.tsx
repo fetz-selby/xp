@@ -1,13 +1,13 @@
-import XPFilter from '@/components/XPFilter/XPFilter'
 import { Stack } from '@mui/material'
 import { getXP } from '@/utils/api'
+import XPView from '@/components/XPView/XPView'
 
 const XPPage = async () => {
   const initialLoad = await getXP({})
 
   return (
     <Stack>
-      <XPFilter initXPList={initialLoad} />
+      <XPView initXPList={initialLoad} />
     </Stack>
   )
 }
