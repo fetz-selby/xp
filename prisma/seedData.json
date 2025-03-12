@@ -1,0 +1,43 @@
+[
+  {
+    "model": "location",
+    "data": [
+      {
+        "name": "Stuttgart"
+      },
+      {
+        "name": "Berlin"
+      },
+      {
+        "name": "Munich"
+      },
+      {
+        "name": "Hamburg"
+      },
+      {
+        "name": "Cologne"
+      },
+      {
+        "name": "Frankfurt"
+      },
+      {
+        "name": "Heidelberg"
+      },
+      {
+        "name": "Trier"
+      },
+      {
+        "name": "Leipzig"
+      },
+      {
+        "name": "Kiel"
+      },
+      {
+        "name": "Nuremberg"
+      },
+      {
+        "name": "Dresden"
+      }
+    ]
+  }
+]
