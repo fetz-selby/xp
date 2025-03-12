@@ -75,8 +75,9 @@ export const GET = async (request: NextRequest) => {
       ? data
       : _.filter(data, (a) =>
           _.some(filterCriteria.locations, (loc) =>
+            //@ts-expect-error: exp
             a.timeSlots[loc]?.some(
-              (slot) =>
+              (slot: string | number | Date) =>
                 _.contains(filterCriteria.months, new Date(slot).getMonth() + 1) // Months are 0-based in JS
             )
           )
